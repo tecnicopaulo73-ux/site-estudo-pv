@@ -4,9 +4,11 @@ body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    background-color: #1a1a1a;
+    color: azure;
 }
 header {
-    background-color: rgb(115, 133, 133);
+    background-color: #2b2d42;
     padding: 45px;
     margin-bottom: 55px;
 }
@@ -15,9 +17,10 @@ header > h1 {
 }
 nav > a {
     text-decoration: none;
-    padding: 14px;
-    margin: 1px;
+    padding: 10px;
+    margin: 0px;
     color: black;
+    background-color: azure;
 }
 nav a:hover {
     text-decoration: underline;
@@ -33,31 +36,51 @@ nav a:hover {
     text-align: center;
     margin-bottom: 50px;
     padding: 20px;
+    background-color: azure;
+    color: black;
+    border-radius: 15px;
+    width: 600px;
+    margin:0 auto;
 }
 #produtos > h2 {
+    width:300px;
+    margin: 0 auto;
     text-align: center;
+    margin-top: 50px;
     margin-bottom: 50px;
     background-color: rgb(115, 133, 133);
     padding: 10px;
+    border-radius: 15px;
 }
 #produtos > p {
+    width:1150px;
+    margin: 0 auto;
     text-indent: 15px;
     text-align: center;
-    margin:0px;
+    
     padding: 20px;
+    background-color: azure;
+    color: black;
+    border-radius: 15px;
 }
 #produtos > ul > li {
+    width: 300px;
+    margin: 0 auto;
     text-indent: 15px;
-    
-    margin-bottom: 1px;
+    background-color: azure;
+    color: black;
+    margin-bottom: 15px;
+    list-style: none;
     padding: 20px;
+    border-radius: 15px;
 }
 article > ul {
+    
     margin-top: 50px;
     display: flex;
     justify-content: center;
     padding: 10px;
-    gap: 120px;
+    gap: 50px;
     list-style: none;
     background-color: rgb(115, 133, 133);
     margin-bottom: 50px;
