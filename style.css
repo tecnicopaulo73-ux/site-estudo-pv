@@ -4,13 +4,14 @@ body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    background-color: #1a1a1a;
+    background-image: url(imagens/PlanodeFundo.jpg);
     color: azure;
 }
 header {
     background-color: #2b2d42;
     padding: 45px;
     margin-bottom: 55px;
+    box-shadow: 8px 6px 10px 1px rgba(0, 0, 0, 0.87);
 }
 header > h1 {
     padding: 1px;
@@ -21,10 +22,11 @@ nav > a {
     margin: 0px;
     color: black;
     background-color: azure;
+    border-radius: 15px;
 }
 nav a:hover {
     text-decoration: underline;
-    color: azure;
+    color: black;
 }
     
 #descricao > h2 {
@@ -46,7 +48,7 @@ nav a:hover {
     width:300px;
     margin: 0 auto;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 300px;
     margin-bottom: 50px;
     background-color: rgb(115, 133, 133);
     padding: 10px;
@@ -87,7 +89,8 @@ article > ul {
     width: auto;
 }
 footer {
-    background-color: black;
+    
+    background-color: #2b2d42;
     color: azure;
     margin: 0;
     padding: 1px;
@@ -97,4 +100,17 @@ footer > p {
     margin: 0;
     text-align: center;
     padding: 5px;
+}
+#sociais > ul {
+    list-style:none;
+    margin-bottom:20px
+    
+}
+ul > li {
+    margin-bottom: 10px;
+}
+li > a {
+    text-decoration:none;
+    color: azure;
+
 }
